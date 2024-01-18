@@ -9,4 +9,4 @@ def index():
     return f'{random.random()} | {random.random()}'
 
 
-app.run(debug=True)
+app.run(port = 1488)
